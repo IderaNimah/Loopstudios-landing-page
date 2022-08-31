@@ -1,0 +1,291 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body{
+  min-height: 100vh;
+} 
+.container {
+  height: 100vh;
+  background-image: url(./images/desktop/image-hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+ 
+}
+/* Navigation Link */
+nav {
+  float: right;
+  margin-top: 69px;
+}
+nav a {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  font-size: 20px;
+}
+nav ul {
+  padding: 0%;
+  margin: 0%;
+}
+nav li {
+  display: inline;
+  padding: 0 20px 0 20px;
+  font-family: "Alata", sans-serif;
+  font-weight: 100;
+}
+.dif {
+  padding-right: 150px;
+}
+/* Logo */
+.branding {
+  float: left;
+  margin-top: 50px;
+  margin-left: 150px;
+  font-size: 25px;
+  color: hsl(0, 0%, 100%);
+  font-family: "Alata", sans-serif;
+}
+.branding h2 {
+  margin: 0%;
+}
+
+/* Box-Word */
+.letter-header {
+  margin-top: 250px;
+  position: absolute;
+  margin-left: 200px;
+  font-size: 60px;
+  text-transform: uppercase;
+  border: 2px solid white;
+  padding: 20px 25px;
+  color: hsl(0, 0%, 100%);
+  font-weight: 300;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+/* Second Section */
+/* Joint Image and word */
+.leader {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.image-word {
+  position: relative;
+  padding-left: 170px;
+}
+.word {
+  position: absolute;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: white;
+  left: 50%;
+  top: 28%;
+  bottom: 0;
+}
+.word h1 {
+  text-transform: uppercase;
+  font-size: 55px;
+  font-family: "Josefin Sans", sans-serif;
+  padding-top: 50px;
+}
+.word p {
+  font-family: "Alata", sans-serif;
+  color: hsl(0, 0%, 55%);
+  margin-top: 30px;
+  font-size: 16px;
+  line-height: 2;
+  font-weight: 600;
+  width: 70%;
+}
+
+/* Third Section */
+/* Creation Section */
+.creation-section{
+  width: 75%;
+  margin-left: 170px;
+  margin-bottom: 150px;
+  
+}
+.creation-box{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 19px 1px;
+}
+/* Word Marking */
+.mini{
+  display: flex;
+  justify-content: space-between;
+}
+.mini-one{
+  text-transform: uppercase;
+  font-size: 30px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 800;
+  margin-bottom: 50px;
+}
+
+.mini-two{
+  margin-right: 50px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 1000;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  border: 2px solid black;
+  padding: 10px 40px;
+}
+.imagefirst{
+  position: relative;
+}
+
+/* Image Print Word */
+
+.oneWord{
+  text-transform: uppercase;
+  position: absolute;
+  top: 22rem;
+  left: 3rem;
+  font-size: 30px;
+  color: hsl(0, 0%, 100%);
+  font-family: "Josefin Sans", sans-serif;
+}
+.imagesecond{
+  position: relative;
+}
+.twoWord{
+  text-transform: uppercase;
+  position: absolute;
+  top: 22rem;
+  left: 3rem;
+  font-size: 30px;
+  color: hsl(0, 0%, 100%);
+  font-family: "Josefin Sans", sans-serif;
+} 
+.imagethird{
+  position: relative;
+}
+.threeWord{
+  text-transform: uppercase;
+  position: absolute;
+  top: 22rem;
+  left: 3rem;
+  font-size: 30px;
+  color: hsl(0, 0%, 100%);
+  font-family: "Josefin Sans", sans-serif;
+} 
+.imagefour{
+  position: relative;
+}
+.fourWord{
+  text-transform: uppercase;
+  position: absolute;
+  top: 22rem;
+  left: 3rem;
+  font-size: 30px;
+  color: hsl(0, 0%, 100%);
+  font-family: "Josefin Sans", sans-serif;
+} 
+.imagefive{
+  position: relative;
+}
+.fiveWord{
+  text-transform: uppercase;
+  position: absolute;
+  top: 22rem;
+  left: 3rem;
+  font-size: 30px;
+  color: hsl(0, 0%, 100%);
+  font-family: "Josefin Sans", sans-serif;
+} 
+.imagesix{
+  position: relative;
+}
+.sixWord{
+  text-transform: uppercase;
+  position: absolute;
+  top: 22rem;
+  left: 3rem;
+  font-size: 30px;
+  color: hsl(0, 0%, 100%);
+  font-family: "Josefin Sans", sans-serif;
+} 
+.imageseven{
+  position: relative;
+}
+.sevenWord{
+  text-transform: uppercase;
+  position: absolute;
+  top: 22rem;
+  left: 3rem;
+  font-size: 30px;
+  color: hsl(0, 0%, 100%);
+  font-family: "Josefin Sans", sans-serif;
+} 
+.imageeight{
+  position: relative;
+}
+.eightWord{
+  text-transform: uppercase;
+  position: absolute;
+  top: 22rem;
+  left: 3rem;
+  font-size: 30px;
+  color: hsl(0, 0%, 100%);
+  font-family: "Josefin Sans", sans-serif;
+} 
+
+/* Footer */
+
+footer{
+  position: relative; 
+  background-color:hsl(0, 0%, 0%);
+  padding: 40px;
+  bottom: 0;
+  width: 100%;
+  height: 100px; 
+  bottom: 0;
+  top: 0;
+  height: 180px;
+}
+.footer-end{
+  display: flex;
+  justify-content: space-between;
+} 
+.footer-media ul li{
+  display: inline-block;
+  margin-left: 15px;
+  
+}
+.logo{
+  margin-left: 125px;
+}
+.divnav{
+  position: absolute; 
+  top: 20px;
+  left: 140px;
+}
+h4{
+  color: hsl(0, 0%, 55%);
+  margin-top: 22px;
+  margin-right: 55px;
+  font-family: "Alata", sans-serif;
+}
+
+@media screen and (max-width:1440px) {
+  
+  .container {
+    height: 720px; 
+    background-image: url(./images/desktop/image-hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+   
+  }
+}
