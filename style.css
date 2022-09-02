@@ -288,4 +288,24 @@ h4{
     position: relative;
    
   }
+  .word {
+    position: absolute;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: white;
+    left: 50%;
+    top: 25%;
+    bottom: 0;
+  }
+
+  .word p {
+    font-family: "Alata", sans-serif;
+    color: hsl(0, 0%, 55%);
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 2;
+    font-weight: 600;
+    width: 70%;
+  }
 }
